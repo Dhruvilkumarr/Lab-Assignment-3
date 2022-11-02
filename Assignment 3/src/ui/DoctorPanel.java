@@ -36,15 +36,9 @@ public class DoctorPanel extends javax.swing.JPanel {
         initComponents();
         this.person = person;
         this.workArea = workArea;
-        this.ptDirectory = ptDirectory;
-        
-        
-    
-        
-        
+        this.ptDirectory = ptDirectory;   
     }
-    
-
+ 
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -114,11 +108,11 @@ public class DoctorPanel extends javax.swing.JPanel {
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
 // TODO add your handling code here:
-        CreateDoctor createD = new CreateDoctor(workArea,ptDirectory ,person, docDirectory,hospDirectory, commDirectory, sys);
+        CreateDoctor createD = new CreateDoctor(workArea,person,ptDirectory, docDirectory,hospDirectory, commDirectory, sys);
         workArea.add("CreateDoctor", createD);
         CardLayout layout = (CardLayout) workArea.getLayout();
         layout.next(workArea);        // TODO add your handling code here:
-        
+    
         
     }//GEN-LAST:event_jButton2ActionPerformed
 

@@ -42,7 +42,7 @@
                               <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
                               <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="cmbCity" min="-2" max="-2" attributes="0"/>
+                              <Component id="cmbCity" min="-2" pref="79" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" attributes="0">
                               <EmptySpace max="-2" attributes="0"/>
@@ -146,13 +146,8 @@
     </Component>
     <Component class="javax.swing.JComboBox" name="cmbCity">
       <Properties>
-        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
-          <StringArray count="4">
-            <StringItem index="0" value=" "/>
-            <StringItem index="1" value="Boston"/>
-            <StringItem index="2" value="New York"/>
-            <StringItem index="3" value="New Jersey"/>
-          </StringArray>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new javax.swing.DefaultComboBoxModel&lt;&gt;(new String[] { &quot; &quot;, &quot;Toronto&quot;, &quot;Brampton&quot;, &quot;Scarborugh&quot;, &quot;Vancouver&quot; })" type="code"/>
         </Property>
       </Properties>
       <Events>

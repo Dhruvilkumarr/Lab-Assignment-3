@@ -94,7 +94,7 @@ public class CommunityPanel extends javax.swing.JPanel {
 
         jLabel3.setText("City");
 
-        cmbCity.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { " ", "Boston", "New York", "New Jersey" }));
+        cmbCity.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { " ", "Toronto", "Brampton", "Scarborugh", "Vancouver" }));
         cmbCity.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 cmbCityActionPerformed(evt);
@@ -139,7 +139,7 @@ public class CommunityPanel extends javax.swing.JPanel {
                                 .addGap(30, 30, 30)
                                 .addComponent(jLabel3)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(cmbCity, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(cmbCity, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(layout.createSequentialGroup()
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addComponent(btnDelete, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE)))))
